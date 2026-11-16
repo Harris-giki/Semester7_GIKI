@@ -1,0 +1,3 @@
+Compiler construction is the study of translating programs.
+A lexer turns characters into tokens,
+and a parser turns tokens into a tree.

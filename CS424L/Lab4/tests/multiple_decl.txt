@@ -1,0 +1,7 @@
+{
+int x ;
+int y ;
+bool y ;
+x = 2 + 3*4;
+y = 4 + x ;
+}

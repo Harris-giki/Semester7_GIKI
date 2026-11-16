@@ -1,0 +1,5 @@
+a = a + b * c;
+if (a + 1) b = 3 * b;
+for (i ; i * 2 ; ) other
+for ( ; ; ) if ((x + y) * z) c = 5;
+a + b;

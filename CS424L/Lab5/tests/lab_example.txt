@@ -1,0 +1,14 @@
+{
+a =1;
+if ( a ) {
+b = a ;
+while ( b ) {
+a =2;
+b = a ;
+}
+do{
+c = b ;
+} while ( b ) ;
+}
+d = a ;
+}

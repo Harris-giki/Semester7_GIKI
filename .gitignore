@@ -1,0 +1,12 @@
+# build outputs
+*.yy.c
+*.o
+CS424L/Lab2/q1_numbers
+CS424L/Lab2/q2_identifiers
+CS424L/Lab2/q3_tokens
+CS424L/Lab3/q1_assignment_parser
+CS424L/Lab3/q2_stmt_parser
+CS424L/Lab4/scope_parser
+CS424L/Lab5/translator
+__pycache__/
+.DS_Store
