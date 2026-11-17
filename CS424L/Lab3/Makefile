@@ -1,12 +1,12 @@
-CXX = g++
-CXXFLAGS = -std=c++17 -Wall -Wextra
+CC = gcc
+CFLAGS = -std=c99 -Wall -Wextra
 
 PROGS = q1_assignment_parser q2_stmt_parser
 
 all: $(PROGS)
 
-%: %.cpp
-	$(CXX) $(CXXFLAGS) $< -o $@
+%: %.c
+	$(CC) $(CFLAGS) $< -o $@
 
 test: all
 	-./q1_assignment_parser tests/q1_input.txt

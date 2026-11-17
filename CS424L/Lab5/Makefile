@@ -1,10 +1,10 @@
-CXX = g++
-CXXFLAGS = -std=c++17 -Wall -Wextra
+CC = gcc
+CFLAGS = -std=c99 -Wall -Wextra
 
 all: translator
 
-translator: translator.cpp
-	$(CXX) $(CXXFLAGS) $< -o $@
+translator: translator.c
+	$(CC) $(CFLAGS) $< -o $@
 
 test: all
 	-./translator tests/lab_example.txt

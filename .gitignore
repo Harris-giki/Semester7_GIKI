@@ -1,6 +1,9 @@
-# build outputs
-*.yy.c
+# compiled programs
 *.o
+CS424L/Lab1/q1_identifiers
+CS424L/Lab1/q2_numbers
+CS424L/Lab1/q3_word_count
+CS424L/Lab1/q4_tokenizer
 CS424L/Lab2/q1_numbers
 CS424L/Lab2/q2_identifiers
 CS424L/Lab2/q3_tokens
@@ -8,5 +11,4 @@ CS424L/Lab3/q1_assignment_parser
 CS424L/Lab3/q2_stmt_parser
 CS424L/Lab4/scope_parser
 CS424L/Lab5/translator
-__pycache__/
 .DS_Store

@@ -1,10 +1,10 @@
-CXX = g++
-CXXFLAGS = -std=c++17 -Wall -Wextra
+CC = gcc
+CFLAGS = -std=c99 -Wall -Wextra
 
 all: scope_parser
 
-scope_parser: scope_parser.cpp
-	$(CXX) $(CXXFLAGS) $< -o $@
+scope_parser: scope_parser.c
+	$(CC) $(CFLAGS) $< -o $@
 
 test: all
 	-./scope_parser tests/valid.txt

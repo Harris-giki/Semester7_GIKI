@@ -1,13 +1,12 @@
-CC = cc
-CFLAGS = -Wall -Wno-unused-function
+CC = gcc
+CFLAGS = -std=c99 -Wall -Wextra
 
 PROGS = q1_numbers q2_identifiers q3_tokens
 
 all: $(PROGS)
 
-%: %.l
-	flex -o $@.yy.c $<
-	$(CC) $(CFLAGS) $@.yy.c -o $@
+%: %.c
+	$(CC) $(CFLAGS) $< -o $@
 
 test: all
 	./q1_numbers ../samples/sample.c
@@ -16,6 +15,6 @@ test: all
 	./q3_tokens ../samples/sample.c
 
 clean:
-	rm -f $(PROGS) *.yy.c
+	rm -f $(PROGS)
 
 .PHONY: all test clean
